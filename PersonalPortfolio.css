@@ -1,0 +1,117 @@
+body{
+    font-family: Montserrat;   
+}
+#logo{
+    color:#222831;
+}
+.navbar{
+    background-color: white;
+    padding: 20px;
+   }
+.nav-brand{
+    color: #222831;
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+.nav-item{
+    padding: 0 18px; 
+}
+.nav-link{
+   font-size: 1.2rem;
+   color: #222831;
+}
+.nav-link:hover{
+    color:gray;
+}
+.heading{ 
+    background-color: #222831;
+    padding: 20% 10%;
+    text-align: center;
+    color: #FFF;
+}
+
+#projects{
+    padding-bottom: 10%;
+    color: #222831;
+}
+.project-title{
+    text-align: center;
+    padding-bottom: 5%;
+    color: #222831;
+    padding-top: 5%;
+    
+}
+.row{
+    text-align: center;
+}
+.card-header{
+    background-color: #222831;
+    color: #FFF;
+    
+}
+.card-body{
+    background-color: #FFF;
+}
+button{
+    color:#222831;
+}
+.proj-link{
+    color: #222831;
+}
+#hp{
+    color: #222831;
+    font-weight:600;
+}
+button :hover{
+    color:#FFF;
+    text-decoration: none;
+
+}
+#skills{
+    text-align: center;
+    background-color: #222831;
+    padding: 100px;
+}
+img{
+    border-radius: 10%;
+}
+#skill-title{
+    color: #FFF;
+    padding-bottom: 50px;
+}
+#footer{
+    font-size: 1.2rem;
+    text-align: center;
+    padding: 50px;
+    color: #222831;
+}
+#fa{
+    color: #222831;
+}
+#fa:hover{
+    color:black;
+}
+/* for waving hand emoji */
+.wave {
+    animation-name: wave-animation;  
+    animation-duration: 2.5s;        
+    animation-iteration-count: infinite;  
+    transform-origin: 70% 70%;       
+    display: inline-block;
+  }
+  
+  @keyframes wave-animation {
+      0% { transform: rotate( 0.0deg) }
+     10% { transform: rotate(14.0deg) }  
+     20% { transform: rotate(-8.0deg) }
+     30% { transform: rotate(14.0deg) }
+     40% { transform: rotate(-4.0deg) }
+     50% { transform: rotate(10.0deg) }
+     60% { transform: rotate( 0.0deg) } 
+    100% { transform: rotate( 0.0deg) }
+  }
+  
+  
+  
+  
+
